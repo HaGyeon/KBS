@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- head -->
+    <div id="head_layout">
+        <div class="inner">
+            <a href="" class="logo">
+                <img src="./img/logo_sports.svg" alt="kbs 스포츠월드">
+            </a>
+            <div class="main-menu">
+                <ul class="content-menu">
+                    <li>
+                        <a href="" class="content">스포츠월드 소개</a>
+                    </li>
+                    <li>
+                        <a href="" class="content">KBS 스포츠월드</a>
+                    </li>
+                    <li>
+                        <a href="" class="content">목포 스포츠월드</a>
+                    </li>
+                    <li>
+                        <a href="" class="content">알림마당</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="util-menu">
+                <a href="" class="util-menu-small">
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="" class="util-menu-small">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                </a>
+                <a href="" class="util-menu-small">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </a>
+                <a href="" class="btn btn---blue">로그인</a>
+            </div>
+        </div>
+    </div>
+    <!-- body -->
+    <div id="body_layout">
+        <!-- banner -->
+        <div class="banner">
+            <div class="inner">
+                <div class="banner-in">
+                    <p class="title">
+                        KBS 스포츠월드 수영장에서 무더위를 싹 날리세요!
+                        KBS 스포츠월드 수영장에서 무더위를 싹 날리세요!
+                    </p>
+                    <p class="description">
+                        여름 6~9월 일일 자유수영 안내
+                    </p>
+                    <a href="" class="btn btn---blue">자세히보기</a>
+                    <div class="banner-btn">
+                        <span class="pause">
+                            <img src="./img/ico_pause.svg" alt="">
+                        </span>
+                        <span class="play">
+                            <img src="./img/ico_play.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="form">
+                    <p class="form-title">나에게 맞는<br> 운동을 찾아볼까요?</p>
+                    <label class="gender">
+                        <input type="radio" style="width: 20px; height: 20px; border: 1px;" name="gender" id="M">남자
+                    </label>
+                    <label class="gender">
+                        <input type="radio" style="width: 20px; height: 20px; border: 1px;" name="gender" id="F">여자
+                    </label>
+                    <select class="box">
+                        <option value="0">연령대 선택</option>
+                        <option value="10">10~20</option>
+                        <option value="20">20~30</option>
+                        <option value="30">30~40</option>
+                        <option value="40">40~50</option>
+                        <option value="50">50~60</option>
+                        <option value="60">60~70</option>
+                        <option value="70">70~80</option>
+                        <option value="80">80대</option>
+                    </select>
+                    <p class="form-des">운동의 목적이 무엇인가요??</p>
+                    <div class="checkbox">
+                        <span class="box">유산소</span>
+                        <span class="box">재활</span>
+                        <span class="box">여가활동</span>
+                        <span class="box">다이어트</span>
+                        <span class="box">체력증진</span>
+                    </div>
+                    <div class="more">
+                        <span>더보기</span>
+                    </div>
+                    <a href="" class="btn btn---blue">찾기</a>
+                </div>
+            </div>
+        </div>
+        <!-- oneday -->
+        <div class="oneday">
+            <div class="inner">
+                <ul class="oneday_box">
+                    <li>일일수영 티켓구매</li>
+                    <li>수강신청</li>
+                    <li>특별강습신청</li>
+                </ul>
+                <!-- <div class="swim_ticket">
+                    <p class="swim_title">일일수영 티켓구매</p>
+                    <div class="type_box">
+                        <span class="box box---black">일일수영 성인</span>
+                        <span class="box box---black">일일수영 학생</span>
+                        <span class="box box---black">일일수영 유아</span>
+                    </div>
+                    <a href="" class="btn btn---blue">구매</a>
+                </div> -->
+                <div class="athlete_class">
+                    <div class="athlete_class_box">
+                        <p class="class_appli">수강신청</p>
+                        <ul class="week_box">
+                            <p class="week">요일선택</p>
+                            <li>
+                                <span>월</span>
+                            </li>
+                            <li>
+                                <span>화</span>
+                            </li>
+                            <li>
+                                <span>수</span>
+                            </li>
+                            <li>
+                                <span>목</span>
+                            </li>
+                            <li>
+                                <span>금</span>
+                            </li>
+                            <li>
+                                <span>토</span>
+                            </li>
+                            <li>
+                                <span>일</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <select class="athlete">
+                        <option value="">종목선택</option>
+                        <option value="">수영</option>
+                        <option value="">헬스</option>
+                        <option value="">골프</option>
+                        <option value="">볼링</option>
+                        <option value="">검도</option>
+                        <option value="">스쿼시</option>
+                        <option value="">클라이밍</option>
+                        <option value="">필라테스</option>
+                    </select>
+                    <select class="time">
+                        <option value="all">전체</option>
+                        <option value="am">오전</option>
+                        <option value="pm">오후</option>
+                    </select>
+                    <a href="" class="btn btn---blue">검색</a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- foot -->
+    <div id="foot_layout"></div>
+</body>
+
+</html>
